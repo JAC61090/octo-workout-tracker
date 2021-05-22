@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 //! require("./seeders/seed"); // Either npm run seed or keep this in here uncommented and it will run the seed
 
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
